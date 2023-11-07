@@ -1,0 +1,253 @@
+﻿namespace OMS
+{
+    partial class frmRegister
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtConPass = new System.Windows.Forms.TextBox();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.cmbRole = new System.Windows.Forms.ComboBox();
+            this.chbkShowPass = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label1.Location = new System.Drawing.Point(29, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(245, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Order Management System";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(30, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Username";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsername.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Location = new System.Drawing.Point(34, 113);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(216, 23);
+            this.txtUsername.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(30, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Role";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(30, 198);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(84, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Password";
+            this.label4.Click += new System.EventHandler(this.txtPassword_Click);
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(34, 224);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(216, 23);
+            this.txtPassword.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(30, 245);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 23);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Confirm Password";
+            // 
+            // txtConPass
+            // 
+            this.txtConPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.txtConPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConPass.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConPass.Location = new System.Drawing.Point(34, 271);
+            this.txtConPass.Name = "txtConPass";
+            this.txtConPass.PasswordChar = '*';
+            this.txtConPass.Size = new System.Drawing.Size(216, 23);
+            this.txtConPass.TabIndex = 2;
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegister.FlatAppearance.BorderSize = 0;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.ForeColor = System.Drawing.Color.White;
+            this.btnRegister.Location = new System.Drawing.Point(34, 343);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(216, 35);
+            this.btnRegister.TabIndex = 4;
+            this.btnRegister.Text = "REGISTER";
+            this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(53, 433);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(211, 23);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Already Have an Account";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label7.Location = new System.Drawing.Point(90, 456);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(126, 23);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Back to LOGIN";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.White;
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.btnClear.Location = new System.Drawing.Point(34, 384);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(216, 35);
+            this.btnClear.TabIndex = 17;
+            this.btnClear.Text = "CLEAR";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // cmbRole
+            // 
+            this.cmbRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
+            this.cmbRole.ForeColor = System.Drawing.Color.Black;
+            this.cmbRole.FormattingEnabled = true;
+            this.cmbRole.Location = new System.Drawing.Point(34, 165);
+            this.cmbRole.Name = "cmbRole";
+            this.cmbRole.Size = new System.Drawing.Size(216, 31);
+            this.cmbRole.TabIndex = 18;
+            this.cmbRole.SelectedIndexChanged += new System.EventHandler(this.cmbRole_SelectedIndexChanged);
+            // 
+            // chbkShowPass
+            // 
+            this.chbkShowPass.AutoSize = true;
+            this.chbkShowPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chbkShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chbkShowPass.Location = new System.Drawing.Point(99, 300);
+            this.chbkShowPass.Name = "chbkShowPass";
+            this.chbkShowPass.Size = new System.Drawing.Size(151, 27);
+            this.chbkShowPass.TabIndex = 19;
+            this.chbkShowPass.Text = "Show Password";
+            this.chbkShowPass.UseVisualStyleBackColor = true;
+            this.chbkShowPass.CheckedChanged += new System.EventHandler(this.chbkShowPass_CheckedChanged);
+            // 
+            // frmRegister
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(292, 550);
+            this.Controls.Add(this.chbkShowPass);
+            this.Controls.Add(this.cmbRole);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.txtConPass);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "frmRegister";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmRegister_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtConPass;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.ComboBox cmbRole;
+        private System.Windows.Forms.CheckBox chbkShowPass;
+    }
+}
+
